@@ -3,7 +3,7 @@ import turtle
 
 
 def input_radius():
-    rad = float(input("Nceda ufake uququzelelo y:"))
+    rad = float(input("Please input the radius:"))
     return rad
 
 
@@ -21,5 +21,5 @@ if __name__ == '__main__':
     radius = input_radius()
     t = turtle.Turtle()
     t.circle(50)
-    print("indawo yesangqa:", calc_area(radius))
-    print("Iparameter:", calc_perimeter(radius))
+    print("Total of the area:", calc_area(radius))
+    print("Total of the parameter:", calc_perimeter(radius))
